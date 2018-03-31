@@ -1,0 +1,10 @@
+.wrapper_with_padding
+	- unless @notes.blank?
+		- @notes.each do |note|
+			- if note.present?
+				%a{ href: (url_for [note.first])}
+					%p.title= note.first.title
+	- else
+		%h2 Add a note
+		%p It looks like you haven't created any notes yet.... Lets fix that. Why don't you create a new note below.
+		%button = link_to "New Note", new_note_path
