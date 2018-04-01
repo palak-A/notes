@@ -8,13 +8,13 @@ application up and running.
 * Mongoid 6.1
 
 
-You can sign-up with any user. 
-Create Notes
-View All Notes
-Delete Note
-Edit Note
-Create HashTags within the body and it will appear seperatly
-Filter on basis of hashtag
+* You can sign-up with any user. 
+* Create Notes.
+* View All Notes.
+* Delete Note.
+* Edit Note.
+* Create HashTags within the body and it will appear seperatly
+* Filter on basis of hashtag
 
 
 
